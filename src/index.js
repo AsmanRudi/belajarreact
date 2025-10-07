@@ -7,16 +7,12 @@ import Home from './pages/home';
 import { About } from './pages/about';
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Home></Home>
-  <About></About>
+    <Home></Home>
   </React.StrictMode>
 );
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
